@@ -1,13 +1,8 @@
-//импорт инициализированного объекта firebase
 import { app } from "./app.js";
-//импорт функций авторизации
 import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js";
 
-//объект кнопки "Sign up"
 let submit_btn = document.getElementById("form-submit");
-//поле ввода пароля
 let password = document.getElementById("password");
-//объект сообщения
 let msg = document.getElementsByClassName("msg")[0];
 
 //функция регистрации нового пользователя
