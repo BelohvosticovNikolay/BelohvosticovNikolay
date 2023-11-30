@@ -40,8 +40,6 @@ submit_btn.addEventListener("click", () => {
     let pass = password.value;
     let user_name = document.getElementById("name").value;
     let contact_number = document.getElementById("number").value;
-    
-    submit_btn.childNodes[1].classList.add("display-hide");
 
     if (email == "" || pass == "" || user_name == "" || contact_number == "") {
         msg.textContent = "Не все поля заполнены";
@@ -51,6 +49,4 @@ submit_btn.addEventListener("click", () => {
     else {
         regUser(email, pass);
     }
-
-    submit_btn.childNodes[1].classList.remove("display-hide");
 });

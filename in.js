@@ -33,10 +33,9 @@ function signInUser(email, password) {
 
 //обработчик события нажатия на кнопку "Sign in"
 submit_btn.addEventListener("click", () => {
+    console.log("Ok");
     let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
-
-    submit_btn.childNodes[1].classList.add("display-hide");
 
     if (email == "" || password == "") {
         msg.textContent = "Не все поля заполнены";
@@ -46,6 +45,4 @@ submit_btn.addEventListener("click", () => {
     else {
         signInUser(email, password);
     }
-
-    submit_btn.childNodes[1].classList.remove("display-hide");
 });
