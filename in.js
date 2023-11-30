@@ -19,7 +19,7 @@ function signInUser(email, password) {
         const errorCode = error.code;
         const errorMessage = error.message;
 
-        msg.textContent = "Неверное имя пользователя или пароль";
+        msg.textContent = "Неверный адрес электронный почты или пароль";
         msg.classList.add("msg-error");
         msg.classList.remove("hide", "msg-success");
     })

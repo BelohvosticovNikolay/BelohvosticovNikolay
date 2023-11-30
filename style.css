@@ -261,11 +261,13 @@ label {
 }
 
 .msg-error {
-    color: #961e1e;
+    margin-left: 10%;
+    color: #ff0000;
 }
 
 .msg-success {
-    color: #267e1f;
+    margin-left: 10%;
+    color: #24be19;
 }
 
 .hide {
