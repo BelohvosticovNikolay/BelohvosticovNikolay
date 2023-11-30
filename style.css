@@ -1,0 +1,276 @@
+body {margin: 0px;}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+}
+
+.half {
+    padding: 0px;
+    width: 100%;
+    height: 50vh;
+    flex-shrink: 0;
+    background: #0089ED;    
+}
+
+.block_picture {
+    display: flex;
+    height: 20rem;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    float: left;
+}
+.picture {
+    width: 20rem;
+    height: 20rem;
+    flex-shrink: 0;
+    background: url(img/rocket.png) no-repeat center;
+}
+
+.logo {
+    margin-left: 2.62rem;
+    margin-top: 1.5rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 20%;
+    float: left;
+}
+
+.block_frame {
+    margin-left: 50%;
+    padding-top: 2.5%;
+    width: 30rem;
+    height: 40rem;
+    flex-shrink: 0;
+}
+.frame {
+    width: 30rem;
+    height: 40rem;
+    flex-shrink: 0;
+    border-radius: 2.5rem;
+    background: #FFF;
+    box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.08);
+}
+
+.top_text {
+    padding-top: 15%;
+    padding-left: 10%;
+    width: 28.1875rem;
+    height: 2.875rem;
+    flex-shrink: 0;
+}
+.welcome {
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    float: left;
+}
+.welcome_devworld {
+    color: #0089ED;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.no_account {
+    margin-left: 65%;
+    margin-top: 2%;
+    color: #8D8D8D;
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.no_account_sign {
+    color: #0089ED;
+    font-family: Poppins;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.sign {
+    padding-left: 10%;
+    color: #000;
+    font-family: Poppins;
+    font-size: 3.4375rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.email form input {
+    padding-left: 6%;
+    outline: none;
+    width: 85%;
+    height: 3rem;
+    border-radius: 0.5625rem;
+    border: 1px solid #ADADAD;
+    background: #FFF;
+}
+.email_in form input {
+    padding-left: 6%;
+    outline: none;
+    width: 85%;
+    height: 3rem;
+    border-radius: 0.5625rem;
+    border: 1px solid #ADADAD;
+    background: #FFF;
+}
+.password form input {
+    padding-left: 6%;
+    outline: none;
+    width: 85%;
+    height: 3rem;
+    border-radius: 0.5625rem;
+    border: 1px solid #ADADAD;
+    background: #FFF;
+}
+.name form input {
+    padding-left: 4%;
+    outline: none;
+    width: 11rem;
+    height: 3rem;
+    border-radius: 0.5625rem;
+    border: 1px solid #ADADAD;
+    background: #FFF;
+}
+.number form input {
+    padding-left: 4%;
+    outline: none;
+    width: 11rem;
+    height: 3rem;
+    border-radius: 0.5625rem;
+    border: 1px solid #ADADAD;
+    background: #FFF;
+}
+.name form label{
+    display: block;
+    top: -2em;
+}
+.number form label{
+    display: block;
+    top: -2em;
+}
+.email:hover input {border: 1px solid #4285F4;}
+.email_in:hover input {border: 1px solid #4285F4;}
+.password:hover input {border: 1px solid #4285F4;}
+.name:hover input {border: 1px solid #4285F4;}
+.number:hover input {border: 1px solid #4285F4;}
+label {
+    color: #000;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+::placeholder {
+    color: #808080;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.email {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.email_in {
+    margin-left: 10%;
+    margin-top: 23%;
+}
+.password {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.name {
+    margin-left: 10%;
+    margin-top: 5%;
+    float: left;
+}
+.number {
+    margin-left: 53%;
+    margin-top: 5%;
+}
+.button {
+    width: 97.5%;
+    height: 2.5rem;
+    border-radius: 0.625rem;
+    background: #0089ED;
+    box-shadow: 0px 4px 19px 0px rgba(119, 147, 65, 0.30);
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 0px;
+}
+.button:active {background: #0170c0;}
+.block_button {
+    width: 85%;
+    height: 2.5rem;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.block_text {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 2.62rem;
+    width: 20rem;
+    height: 5.4375rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal;
+}
+.main_big_text {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.main_small_text {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.about_text {
+    font-size: 0.8125rem;
+    font-weight: 300;
+}
+
+/* ------------------------------- */
+.msg {
+    margin: 20px 0;
+}
+
+.msg-error {
+    color: #961e1e;
+}
+
+.msg-success {
+    color: #267e1f;
+}
+
+.hide {
+    opacity: 0;
+}
+.display-hide {
+    display: none;
+}
